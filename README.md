@@ -25,17 +25,17 @@
 
 1. Клонируй репозиторий:
 
-```tsx
+```bash
 git clone https://github.com/S-NOWNUM-B/-Next.js_Education-.git
 
-cd -Next.js_Education-
+cd ./-Next.js_Education-
 ```
 
 2. Перейди в нужный проект внутри practical-task.
 
 3. Установи зависимости и запусти dev-сервер:
 
-```tsx
+```bash
 npm install
 
 npm run dev
@@ -45,13 +45,18 @@ npm run dev
 
 Выполняются в папке конкретного проекта:
 
-```tsx
-# Pапуск локального сервера разработки
+```bash
+# Запуск локального сервера разработки
 npm run dev
 
-- npm run build — production-сборка.
-- npm run start — запуск production-версии.
-- npm run lint — проверка кода линтером.
+# Production-сборка
+npm run build
+
+# Запуск production-версии
+npm run start
+
+# Проверка кода линтером
+npm run lint
 ```
 
 ## Системные требования

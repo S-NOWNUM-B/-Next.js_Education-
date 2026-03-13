@@ -1,73 +1,78 @@
+<div align="center">
+
 # Next.js Education
 
-Учебный репозиторий для изучения Next.js: от базовой структуры проекта до практических задач и разборов теории.
+### Путь от основ к полноценным приложениям на Next.js
 
-## Что внутри
+**App Router · Server Components · Server Actions**
 
-- practical-task/ — практические задания и мини-проекты.
-- teoretical-materials/ — теоретические конспекты, заметки и шпаргалки.
+</div>
 
-## Цель репозитория
+---
 
-- Понять архитектуру приложений на Next.js.
-- Научиться работать с App Router.
-- Разобраться с Server Components и Client Components.
-- Закрепить маршрутизацию, работу с данными, стилизацию и деплой.
+## Содержание
 
-## Рекомендуемый стек
+- [О проекте](#о-проекте)
+- [Быстрый старт](#быстрый-старт)
+- [Команды](#команды)
+- [Системные требования](#системные-требования)
 
-- Next.js (актуальная версия)
-- React
-- TypeScript
-- ESLint
+---
+
+## О проекте
+
+> **От базовой структуры к production-практикам: Next.js, TypeScript и современная fullstack-разработка**
+
+Этот репозиторий предназначен для комплексного изучения Next.js с нуля. Основной упор сделан на App Router, Server/Client Components, работу с данными, Server Actions и использовании TypeScript для безопасности типов. Каждый проект полностью независим с собственной конфигурацией и структурой приложения.
+
+---
 
 ## Быстрый старт
 
-1. Клонируй репозиторий:
+### Запуск упражнений
 
 ```bash
-git clone https://github.com/S-NOWNUM-B/-Next.js_Education-.git
+# 1. Клонирование репозитория
+git clone <repository-url>
+cd -Next.js_Education-
 
-cd ./-Next.js_Education-
+# 2. Переход в упражнение
+cd practical-task/nameProject
+
+# 3. Установка зависимостей и запуск
+npm install && npm run dev
 ```
 
-2. Перейди в нужный проект внутри practical-task.
-
-3. Установи зависимости и запусти dev-сервер:
+### Запуск проектов
 
 ```bash
-npm install
-
-npm run dev
+cd practical-task/nameProject
+npm install && npm run dev
 ```
 
-## Полезные команды
+---
 
-Выполняются в папке конкретного проекта:
+## Команды
 
 ```bash
-# Запуск локального сервера разработки
-npm run dev
-
-# Production-сборка
-npm run build
-
-# Запуск production-версии
-npm run start
-
-# Проверка кода линтером
-npm run lint
+# В папке каждого проекта/упражнения
+npm run dev        # Запуск dev сервера (http://localhost:3000)
+npm run build      # Production сборка
+npm run start      # Запуск production-версии
+npm run lint       # Проверка ESLint
 ```
+
+---
 
 ## Системные требования
 
-- Node.js 18.18+ (рекомендуется LTS 20+)
-- npm 9+
-- VS Code (опционально, но удобно)
+<div align="center">
 
-## Планы по наполнению
+|  Компонент   |         Минимум          |  Рекомендуется   |
+| :----------: | :----------------------: | :--------------: |
+| **Node.js**  |         v18.18+          |      v20+        |
+| **npm/yarn** |           9.0+           |      Latest      |
+|   **IDE**    | Любой текстовый редактор |     VS Code      |
+| **Браузер**  |    Любой современный     | Chrome / Firefox |
 
-- Базовые задания по App Router.
-- Практика по Server Actions.
-- Работа с API routes и fetch на сервере.
-- Тема оптимизации и производительности.
+</div>
